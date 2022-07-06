@@ -13,7 +13,6 @@ composer require micro-spaceless/telegram-bot
 
 Package does not require any migrations
 
-
 ## Integration
 
 ## Usage
