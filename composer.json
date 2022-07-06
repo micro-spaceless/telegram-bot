@@ -5,10 +5,10 @@
     "keywords": [
         "telegram",
         "bot",
-        "api",
+        "api"
     ],    
     "require": {
-        "php": "^7.4",
+        "php": "^7.4"
     },
     "license": "MIT",
     "authors": [
