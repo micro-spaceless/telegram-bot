@@ -1,0 +1,27 @@
+{
+    "name": "micro-spaceless/telegram-bot",
+    "description": "PHP Telegram bot",
+    "homepage": "https://github.com/micro-spaceless/telegram-bot",
+    "keywords": [
+        "telegram",
+        "bot",
+        "api",
+    ],    
+    "require": {
+        "php": "^7.4",
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Edgar Poghosyan",
+            "email": "ed.arm.2000@gmail.com",
+            "homepage": "https://github.com/micro-spaceless",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "MicroSpaceless\\TelegramBot\\": "src"
+        }
+    }
+}
