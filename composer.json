@@ -1,14 +1,16 @@
 {
     "name": "micro-spaceless/telegram-bot",
-    "description": "PHP Telegram bot",
+    "description": "Telegram Bot Package for Laravel 7.x",
     "homepage": "https://github.com/micro-spaceless/telegram-bot",
     "keywords": [
         "telegram",
         "bot",
-        "api"
-    ],    
+        "api",
+        "laravel"
+    ],
     "require": {
-        "php": "^7.4"
+        "php": "^7.4",
+        "illuminate/support": "^8.83"
     },
     "license": "MIT",
     "authors": [
@@ -23,5 +25,20 @@
         "psr-4": {
             "MicroSpaceless\\TelegramBot\\": "src"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "MicroSpaceless\\TelegramBot\\Providers\\BaseServiceProvider"
+            ],
+            "aliases": {
+                "Telegram": "MicroSpaceless\\TelegramBot\\Telegram"
+            }
+        }
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "sort-packages": true,
+        "process-timeout": 3600
     }
 }
